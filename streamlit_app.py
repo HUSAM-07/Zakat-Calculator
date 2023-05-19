@@ -68,8 +68,7 @@ def main():
          zakat_payable_precious_stones, zakat_payable_silver, zakat_payable_cash, zakat_payable_loans_investments,
          zakat_payable_landed_property, zakat_payable_business_stock, zakat_payable_partnership_firms) = calculate_zakat(
             weight_gold_24, weight_gold_22, weight_gold_18, value_other_gold, value_precious_stones,
-            weight_silver, value_cash, value_loans_investments, value_landed_property, value_business_stock,
-            value_partnership_firms)
+            weight_silver, value_cash, value_loans_investments, value_landed_property, value_business_stock, value_partnership_firms)
 
         st.subheader("Zakat Payable")
         st.write("Weight in Grams\tPrice/Gm\tEstimated Value\tZakat Payable")
@@ -82,7 +81,7 @@ def main():
         st.write(f"2. ZAKAT ON PRECIOUS STONES (2.5%)")
         st.write(f"Calculate the nett Market Value of the Precious stones like Diamonds, Rubies, Etc.")
         st.write(f"and add them to the Estimated Value Column if they are purchased for commercial purpose.")
-                st.write(f"3. ZAKAT ON SILVER (2.5%)")
+        st.write(f"3. ZAKAT ON SILVER (2.5%)")
         st.write(f"Include Household Silver Utensils, Artefacts, and Jewelry.")
         st.write(f"For Utensils, usually the silver is 90% pure so take 90% of the total weight.")
         st.write(f"Weight in Grams\tPrice/Gm\tEstimated Value\tZakat Payable")
