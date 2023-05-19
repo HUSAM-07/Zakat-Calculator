@@ -113,7 +113,7 @@ def main():
         st.write(f"6b. Zakat on Rentals Coming from Property\t\t\t\t{zakat_payable_landed_property}")
 
         st.write(f"7. ZAKAT ON BUSINESS (2.5%)")
-                st.write(f"7a. Value of Saleable Stock\t\t\t\t\t\t{value_business_stock}\t\t\t\t\t\t{zakat_payable_business_stock}")
+        st.write(f"7a. Value of Saleable Stock\t\t\t\t\t\t{value_business_stock}\t\t\t\t\t\t{zakat_payable_business_stock}")
         st.write(f"7b. Value of Damaged/Dead Stock\t\t\t\t\t\t{value_damaged_stock}\t\t\t\t\t\t{zakat_payable_business_stock}")
         st.write(f"7c. Amount Receivable from Credit Sales\t\t\t\t{value_credit_sales}\t\t\t\t\t\t{zakat_payable_business_stock}")
         st.write(f"7d. LESS: Amount Payable to Suppliers\t\t\t\t\t{value_payable_suppliers}\t\t\t\t\t\t{zakat_payable_business_stock}")
