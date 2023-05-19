@@ -55,7 +55,7 @@ def main():
         st.write("You may make your best judgement and the best way is to pay on remaining amount on the day of calculation")
         st.write("")
         st.write("Zakat on Loans Given, Funds, etc")
-                st.write("by you on loans you have given to your friends and relatives. It should be treated as Cash in Hand. You may deduct Loans Payable by you to arrive at the nett present value of your wealth. However, if you are in doubt, on the return of your money, then you may not calculate it as your wealth. But you can add it to your wealth retrospectively if and when you receive your money.")
+        st.write("by you on loans you have given to your friends and relatives. It should be treated as Cash in Hand. You may deduct Loans Payable by you to arrive at the nett present value of your wealth. However, if you are in doubt, on the return of your money, then you may not calculate it as your wealth. But you can add it to your wealth retrospectively if and when you receive your money.")
         st.write("Zakat is payable on all Govt Bonds, Public Sector Bond, Cash value of Takaful policies, your paid-up portion of BC/Committee (Bachat/voluntary contribution) which is not yet received, Govt Bills receivables, etc. Please remember you need to be aware of what the sharia says about Insurance and other types of investments. It is outside the scope of this Zakath Calculator.")
         st.write("")
         st.write("Zakat on Landed Property")
