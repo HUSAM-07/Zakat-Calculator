@@ -65,7 +65,8 @@ def main():
 
     st.subheader("Disclaimer")
     st.write("This Zakah Calculator is uploaded for the benefit of our customers to calculate their Zakah for the year. However, it is suggested that the Zakah calculation shall be further presented to a Sharia Scholar for his review/feedback.")
-
+    st.divider()
+    st.caption("This App is Developed by HUSAM")
 if __name__ == "__main__":
     main()
 
