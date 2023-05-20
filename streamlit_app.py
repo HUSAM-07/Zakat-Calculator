@@ -147,6 +147,9 @@ def main():
         st.write("TOTAL ZAKAT PAYABLE")
         st.write(total_zakat_payable)
 
+        st.divider()
+        st.caption("Designed by HUSAM")
+
 
 if __name__ == "__main__":
     main()
